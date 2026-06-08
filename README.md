@@ -1,101 +1,45 @@
-# tico
+<picture>  
+<source media="(prefers-color-scheme: dark)" srcset="https://i.imgur.com/8qsV6MH.png">  
+<source media="(prefers-color-scheme: light)" srcset="https://i.imgur.com/4cpzGnB.png">  
+<img src="https://i.imgur.com/8qsV6MH.png" width="200">  
+</picture>
 
-The first custom emulation frontend for Nintendo Switch — a controller-first, native C++ interface designed for performance, simplicity, and long-term portability.
+The first custom emulation frontend for Nintendo Switch. A controller-first interface built for performance and simplicity.
 
-----------
+ [![Homepage](https://img.shields.io/badge/Homepage-009BD5.svg?style=for-the-badge&logo=Homepage&logoColor=white)](https://ticoverse.com) [![Discord](https://img.shields.io/badge/Discord-5865F2.svg?style=for-the-badge&logo=Discord&logoColor=white)](https://discord.gg/DPgXGqJMkJ) [![Ko-fi](https://img.shields.io/badge/Kofi-FF6433.svg?style=for-the-badge&logo=Ko-fi&logoColor=white)](https://ko-fi.com/ticoverse)
+
+---
 
 ## What is tico?
 
-tico is a multi-platform emulation frontend focused on delivering a console-quality user experience.
+tico is a game launcher that supports libretro cores and custom emulators.
 
-Instead of file browsers, configuration menus, and fragmented tools, tico provides a unified interface that automatically organizes games, manages assets, and launches emulator cores — none of which are included in the tico binary itself.
+It organizes your games automatically, manages assets, and launches everything from one place. No file browsers, no fragmented tools, no config menus. Just pick a game and play.
 
-It is designed to feel like a real console UI — not a development tool.
-
-----------
+---
 
 ### Screenshots
 
-**Home Intro** ![Home Intro](https://github.com/ticohq/tico/blob/main/images/home.jpg?raw=true)
-**Homescreen** ![Homescreen](https://github.com/ticohq/tico/blob/main/images/homescreen.jpg?raw=true)
-**Console Selection** ![Launch Consoles](https://github.com/ticohq/tico/blob/main/images/consoles-launch.jpg?raw=true)
+![Homescreen](https://github.com/ticohq/tico/blob/main/images/homescreen.webp?raw=true)
 
-----------
+![Launch Consoles](https://github.com/ticohq/tico/blob/main/images/game-launch.webp?raw=true)
 
-## Features
+---
 
-### Interface
+## This repository
 
--   Home screen with customizable game shortcuts 
--   Unified multi-console launcher 
--   Controller-first navigation
--   Instant library loading with intelligent caching
--   One-button rescan system
-    
+- Release distribution
+- Update tracking
+- Issue reporting
 
-### Game Management
-
--   Automatic No-Intro and Redump naming support
--   Auto-organization by system and region
--   Direct pinning from library to home screen
--   Structured save and asset directories
-
-    
-----------
-
-## Architecture
-
--   Written in modern C++ 
--   Native performance 
--   No scripting languages
--   No heavy frameworks
--   Designed for long-term portability
-    
-
-----------
-
-## Repository Purpose
-
-This repository exists for:
-
--   Release distribution
--   Update tracking
--   Issue reporting
--   Community feedback
--   Documentation
-
-----------
-
-## Community
-
-Discord: [https://discord.gg/DPgXGqJMkJ](https://discord.gg/DPgXGqJMkJ)
-
-----------
+---
 
 ## Legal
 
-tico does not include:
+tico does not include ROMs, BIOS files, system firmware, DRM circumvention tools, or emulator cores. Users are responsible for legal ownership of their games and compliance with local laws.
 
--   ROMs
--   BIOS files
--   System firmware
--   DRM circumvention tools
--   Emulator cores
--   Core binaries into application
-  
-Users are responsible for legal ownership of games and compliance with local laws.
+Full license at [ticoverse.com/license](https://ticoverse.com/license).
 
-----------
+---
 
-## Documentation Files
-
--   [LICENSE.md](https://github.com/ticohq/tico/blob/main/LICENSE.md) → Legal structure and licensing    
--   [CREDITS.txt](https://github.com/ticohq/tico/blob/main/CREDITS.txt) → Attributions only
-
-----------
-
-## Disclaimer
-
-tico is an independent homebrew project.
-Not affiliated with Nintendo, Sony, or any console manufacturer.
-Nintendo Switch is a trademark of Nintendo Co., Ltd.
+*tico is an independent homebrew project. Not affiliated with Nintendo, Sony, or any console manufacturer. Nintendo Switch is a trademark of Nintendo Co., Ltd.*
