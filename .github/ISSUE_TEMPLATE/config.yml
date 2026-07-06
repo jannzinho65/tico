@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: Emulator/Core Issues
+    url: https://github.com/ticohq/tico/issues/181
+    about: If your issue is specific to an emulator or core, please report it in the appropriate repository.
+
+  - name: Discord
+    url: https://discord.gg/DPgXGqJMkJ
+    about: Ask questions or get community support.
+
+  - name: Website
+    url: https://ticoverse.com
+    about: Learn more about tico.
